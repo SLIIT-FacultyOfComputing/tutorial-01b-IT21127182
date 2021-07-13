@@ -4,7 +4,13 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
+
+  int m1,m2;
+
+  printf("Enter 2 numbers : ");
+  scanf("%d %d",&m1,&m2);
   
   return 0;
 }

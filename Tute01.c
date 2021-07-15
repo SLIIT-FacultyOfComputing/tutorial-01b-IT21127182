@@ -8,9 +8,19 @@ int main()
 {
 
   int m1,m2;
+  float avg;
+ 
+  printf("Enter a number  : ");
+  scanf("%d ",&m1);
 
-  printf("Enter 2 numbers : ");
-  scanf("%d %d",&m1,&m2);
+  printf("Enter a number  : ");
+  scanf("%d ",&m2);
+
+  avg = (m1+m2)/2;
+
+  printf("Average is : %.2f",avg);
+
+
   
   return 0;
 }
